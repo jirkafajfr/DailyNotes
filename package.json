@@ -36,7 +36,13 @@
         "mocha": "^3.5.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42",
-        "typemoq": "~2.0.1"
+        "typemoq": "^2.0.1",
+        "@types/glob": "^5.0.32",
+        "glob": "^7.1.2",
+        "decache": "^4.1.0",
+        "istanbul": "^0.4.5",
+        "remap-istanbul": "^0.9.5",
+        "tslint": "^5.7.0"
     },
     "dependencies": {
         "dateformat": "2.2.0"

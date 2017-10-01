@@ -1,7 +1,10 @@
-# Change Log
-All notable changes to the "dailynotes" extension will be documented in this file.
+# Changelog
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-- Initial release
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [0.1.0] - 2017-10-01
+
+- Initial release. Extension contains one command ```extension.dailyNotes``` which creates notes template for current day.

@@ -1,4 +1,5 @@
 import * as dateFormat from "dateformat";
+import * as path from "path";
 import * as vscode from "vscode";
 import { NoWorkingDirectoryError } from "./no-working-directory-error";
 
@@ -63,6 +64,6 @@ export class MarkdownWorker {
         if (!workingFolder) {
             throw new NoWorkingDirectoryError();
         }
-        return `${workingFolder}${this.fileName(date)}`;
+        return path.join(workingFolder, this.fileName(date));
     }
 }
